@@ -1,0 +1,17 @@
+ @AbapCatalog.sqlViewName: 'ZPURCHASEORDER'
+@AbapCatalog.compiler.compareFilter: true
+@AbapCatalog.preserveKey: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Purchase order header View'
+define view ZI_PURCHASEORD as select from ekko {
+
+   key ebeln as PurchaseOrder,
+      bsart as PurchaseOrderType,
+      ekorg as PurchaseOrganization,
+      ekgrp  as PurcGroup,
+      lifnr  as Supplier,
+      waers  as DocCurrency,
+      aedat  as CreationDate
+       
+    
+}
