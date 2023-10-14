@@ -9,4 +9,6 @@ Select New from the context menu of your package, then select Other ABAP Reposit
 Search for Data Definition under Core Data Services and click on Next.<br>
 Enter the Name and the Definition of the Data definition and click on Next.<br>
 Select the default Transport number and click on Next.<br>
-Select the Define View Entity and Click on Finish. The CDS View has been created.<br>
+Select the Define View  and Click on Finish. <br>
+Provide SQL View Name, Data Source Name and Add Annotations.<br>
+Define the Query for data selection. and activate the CDS View.
